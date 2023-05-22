@@ -2,16 +2,18 @@ import styled from 'styled-components';
 
 export const ButtonList = styled.ul`
   display: flex;
-  /* gap: 15px; */
+  gap: 10px;
   padding: 15px;
   justify-content: center;
 `;
 
 export const Button = styled.button`
   padding: 15px;
+  border-radius: 25px;
+
   font-size: 15px;
   font-family: inherit;
-  border-radius: 25px;
+  cursor: pointer;
   outline: none;
   color: #ffffff;
   background-color: ${props => {
@@ -26,6 +28,5 @@ export const Button = styled.button`
         return 'white';
     }
   }};
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 17px;
-  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;

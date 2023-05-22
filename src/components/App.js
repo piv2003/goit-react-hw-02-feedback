@@ -48,7 +48,7 @@ export class App extends Component {
     const options = ['Good', 'Neutral', 'Bad'];
 
     return (
-      <Section title="Please leave feedback">
+      <Section title="Please, leave feedback">
         <FeedbackOptions
           options={options}
           onLeaveFeedback={this.onLeaveFeedback}
