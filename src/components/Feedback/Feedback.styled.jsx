@@ -9,17 +9,17 @@ export const ButtonList = styled.ul`
 
 export const Button = styled.button`
   padding: 15px;
-  border-radius: 25px;
-
+  border-radius: 15px;
+  border-color: #15093d;
   font-size: 15px;
-  font-family: inherit;
+  font-weight: bold;
   cursor: pointer;
   outline: none;
-  color: #ffffff;
+  /* color: #ffffff; */
   background-color: ${props => {
     switch (props.children) {
       case 'Good':
-        return 'green';
+        return '#65f365';
       case 'Neutral':
         return '#ADD100';
       case 'Bad':
@@ -28,5 +28,18 @@ export const Button = styled.button`
         return 'white';
     }
   }};
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: ${props => {
+    switch (props.children) {
+      case 'Good':
+        return '#f365e7';
+      case 'Neutral':
+        return '#f7f8f4';
+      case 'Bad':
+        return '#131212';
+      default:
+        return 'white';
+    }
+  }};
+
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 10px;
 `;
