@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ButtonList = styled.ul`
   display: flex;
-  gap: 10px;
+  gap: 30px;
   padding: 15px;
   justify-content: center;
 `;
