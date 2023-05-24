@@ -34,11 +34,9 @@ export const Title = styled.h1`
       text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff;
     }
   }
-   {
-    color: rgb(245, 245, 245);
-    text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
-    background: #da96fa;
-    -webkit-animation: pulsate 1.2s linear infinite;
-    animation: pulsate 1.2s linear infinite;
-  }
+  color: rgb(245, 245, 245);
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
+  background: #da96fa;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
 `;

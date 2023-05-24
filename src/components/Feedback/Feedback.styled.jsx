@@ -15,13 +15,12 @@ export const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   outline: none;
-  /* color: #ffffff; */
   background-color: ${props => {
     switch (props.children) {
       case 'Good':
         return '#65f365';
       case 'Neutral':
-        return '#ADD100';
+        return '#faf6c1';
       case 'Bad':
         return 'red';
       default:
@@ -31,15 +30,14 @@ export const Button = styled.button`
   color: ${props => {
     switch (props.children) {
       case 'Good':
-        return '#f365e7';
+        return '#f703d6';
       case 'Neutral':
-        return '#f7f8f4';
+        return '#5b73fa';
       case 'Bad':
         return '#131212';
       default:
         return 'white';
     }
   }};
-
   box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 10px;
 `;

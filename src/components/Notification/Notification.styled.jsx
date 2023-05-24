@@ -4,11 +4,10 @@ export const NotificationBox = styled.div`
   padding: 10px;
   font-weight: bold;
   font-size: 30px;
-   {
-    -webkit-animation: blink1 3s linear infinite;
-    animation: blink1 3s linear infinite;
-  }
-  @-webkit-keyframes blink1 {
+
+  -webkit-animation: blink 3s linear infinite;
+  animation: blink1 3s linear infinite;
+  @-webkit-keyframes blink {
     0% {
       color: rgba(34, 34, 34, 1);
     }
