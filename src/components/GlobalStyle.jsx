@@ -10,17 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;    
   }
-  
-  h1,
-  h2,
-  h3,  
-  p,
-  ul,
-  ol,
-  li {
-    margin: 0;
-    padding: 0;
-  }
+ 
   ul {
     list-style: none;
   }

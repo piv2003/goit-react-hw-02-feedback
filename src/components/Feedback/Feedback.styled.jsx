@@ -10,7 +10,7 @@ export const ButtonList = styled.ul`
 export const Button = styled.button`
   padding: 15px;
   border-radius: 15px;
-  border-color: #15093d;
+  border-color: #531f4f;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
