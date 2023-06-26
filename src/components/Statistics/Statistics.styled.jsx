@@ -8,8 +8,9 @@ export const Title = styled.h2`
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 25px;
+  font-weight: 900;
   color: #f805d8;
-  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.55);
 `;
 
 export const StatList = styled.ul`
@@ -20,7 +21,7 @@ export const StatList = styled.ul`
   & li {
     padding: 15px;
     border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
   }
 `;
 
@@ -37,5 +38,6 @@ export const StatBad = styled.li`
 `;
 
 export const StatTotal = styled.li`
-  background-color: #e5eaf5;
+  /* background-color: #e5eaf5; */
+  background-color: #ee45ee;
 `;

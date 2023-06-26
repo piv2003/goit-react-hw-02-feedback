@@ -11,16 +11,16 @@ export class App extends Component {
   };
 
   onLeaveFeedback = evt => {
-    this.setState(prevValue => {
+    this.setState(prev => {
       switch (evt.target.textContent) {
         case 'Good':
-          return { good: prevValue.good + 1 };
+          return { good: prev.good + 1 };
 
         case 'Neutral':
-          return { neutral: prevValue.neutral + 1 };
+          return { neutral: prev.neutral + 1 };
 
         case 'Bad':
-          return { bad: prevValue.bad + 1 };
+          return { bad: prev.bad + 1 };
 
         default:
           console.log('Something wrong');
@@ -28,6 +28,7 @@ export class App extends Component {
       }
     });
   };
+
   countTotalFeedback = () => {
     const arrFeedback = Object.values(this.state);
     const sumFeedback = arrFeedback.reduce((sum, elem) => sum + elem, 0);
