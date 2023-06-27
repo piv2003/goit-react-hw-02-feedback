@@ -37,6 +37,6 @@ export const Title = styled.h1`
   color: rgb(245, 245, 245);
   text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
   background: #da96fa;
-  -webkit-animation: pulsate 1.2s linear infinite;
-  animation: pulsate 1.2s linear infinite;
+  -webkit-animation: pulsate 2.2s linear infinite;
+  animation: pulsate 2.2s linear infinite;
 `;
