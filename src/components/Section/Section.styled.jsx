@@ -8,11 +8,11 @@ export const SectionFeedback = styled.section`
   margin-top: 200px;
   max-width: 700px;
   text-align: center;
-  background-color: #f6fffd;
+  background-color: #fcfff6;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 75px 75px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 21px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    rgba(0, 0, 0, 0.17) 0px 12px 21px, rgba(0, 0, 0, 0.09) 0px -3px 2px;
 `;
 
 export const Title = styled.h1`
