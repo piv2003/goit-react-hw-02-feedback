@@ -30,17 +30,16 @@ export class App extends Component {
   };
 
   countTotalFeedback = () => {
-    const arrFeedback = Object.values(this.state);
-    const sumFeedback = arrFeedback.reduce((sum, elem) => sum + elem, 0);
+    const sumFeedback = Object.values(this.state).reduce(
+      (sum, elem) => sum + elem,
+      0
+    );
     return sumFeedback;
   };
 
   countPositiveFeedbackPercentage = () => {
     const totalFeedback = (this.state.good / this.countTotalFeedback()) * 100;
 
-    if (this.countTotalFeedback() <= 0) {
-      return 100;
-    }
     return Math.round(totalFeedback);
   };
 
