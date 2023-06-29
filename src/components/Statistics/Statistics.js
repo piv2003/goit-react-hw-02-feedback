@@ -8,6 +8,7 @@ import {
   StatNeutral,
   StatBad,
   StatTotal,
+  StatPositive,
 } from './Statistics.styled';
 
 export const Statistics = ({
@@ -25,7 +26,7 @@ export const Statistics = ({
         <StatNeutral>Neutral: {neutral}</StatNeutral>
         <StatBad>Bad: {bad}</StatBad>
         <StatTotal>Total: {total}</StatTotal>
-        <li>Positive feedback: {positivePercentage}%</li>
+        <StatPositive>Positive feedback: {positivePercentage}%</StatPositive>
       </StatList>
     </StatisticsField>
   ) : (

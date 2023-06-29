@@ -38,6 +38,7 @@ export const StatBad = styled.li`
 `;
 
 export const StatTotal = styled.li`
-  /* background-color: #e5eaf5; */
   background-color: #ee45ee;
 `;
+
+export const StatPositive = styled.li``;
